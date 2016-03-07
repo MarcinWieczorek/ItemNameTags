@@ -1,0 +1,29 @@
+item:
+ name: "Name Tag"
+ lore:
+  - "§bItemNameTag"
+
+# Applicable materials
+# *TEXT -> anythingTEXT
+# TEXT* -> TEXTanything
+# *TEXT* -> anythingTEXTanything
+# TEXT -> TEXT
+# /itemdb is helpful!
+applicable:
+ - "*_SWORD"
+ - "*_AXE"
+ - "*_PICKAXE"
+ - "*_SPADE"
+ - "*_HOE"
+ - "BOW"
+ - "LEATHER_*"
+ - "*_LEGGINGS"
+ - "*_HELMET"
+ - "*_CHESTPLATE"
+ - "*_BOOTS"
+
+messages:
+ nopermissions: "&cNo permissions!"
+ consolesender: "&7You cannot send that command from the console"
+ invalidplayer: "&7Could not find that player"
+ unknowncommand: "&cUnknown command!"

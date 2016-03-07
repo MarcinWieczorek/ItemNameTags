@@ -2,3 +2,14 @@ name: ItemNameTags
 author: Marcin (CTRL) Wieczorek
 version: 1.0
 main: co.marcin.itemnametags.ItemNameTags
+commands:
+ itemnametags:
+  aliases: [ int ]
+  description: ItemNameTags command
+permissions:
+ itemnametags.use:
+  default: false
+ itemnametags.give:
+  default: op
+ itemnametags.infinite:
+  default: op
